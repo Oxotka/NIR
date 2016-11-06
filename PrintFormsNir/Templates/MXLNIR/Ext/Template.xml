@@ -279,43 +279,43 @@
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>7</f>
 					<parameter>Nomenclature</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>7</f>
 					<parameter>Measure</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>7</f>
 					<parameter>QuantityAccording</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>QuantityReal</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>AquisitionPrice</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>ReceivedValueWithoutVAT</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>ReceivedVAT</parameter>
 				</c>
 			</c>
@@ -327,54 +327,54 @@
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>9</f>
 					<parameter>Excees</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>UnitaryValue</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>SellingPrice</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>SellingValueWithoutVAT</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<parameter>SellingWithVAT</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<leftHeader>
-		<f>9</f>
+		<f>11</f>
 		<tl/>
 	</leftHeader>
 	<centerHeader>
-		<f>9</f>
+		<f>11</f>
 		<tl/>
 	</centerHeader>
 	<rightHeader>
-		<f>9</f>
+		<f>11</f>
 		<tl/>
 	</rightHeader>
 	<leftFooter>
-		<f>10</f>
+		<f>12</f>
 		<tl/>
 	</leftFooter>
 	<centerFooter>
-		<f>10</f>
+		<f>12</f>
 		<tl>
 			<v8:item>
 				<v8:lang>ro</v8:lang>
@@ -383,7 +383,7 @@
 		</tl>
 	</centerFooter>
 	<rightFooter>
-		<f>10</f>
+		<f>12</f>
 		<tl>
 			<v8:item>
 				<v8:lang>ro</v8:lang>
@@ -392,7 +392,7 @@
 		</tl>
 	</rightFooter>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>8</defaultFormatIndex>
+	<defaultFormatIndex>10</defaultFormatIndex>
 	<height>7</height>
 	<vgRows>7</vgRows>
 	<merge>
@@ -524,6 +524,11 @@
 	</format>
 	<format>
 		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<border>0</border>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
@@ -533,6 +538,17 @@
 			<v8:item>
 				<v8:lang>en</v8:lang>
 				<v8:content>ND=15; NFD=2</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>ND=5; NFD=2</v8:content>
 			</v8:item>
 		</format>
 	</format>
